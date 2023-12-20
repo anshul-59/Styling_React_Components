@@ -21,8 +21,8 @@ const Input = styled.input`
   padding: 0.75rem 1rem;
   line-height: 1.5;
   background-color: ${(props) => props.invalid ? 'red' : '#374151'};
-  color: ${(props) => props.invalid ? 'red' : '#374151'};
-  border: 1px solid ${(props) => props.invalid ? 'blue' : '#374151'};
+  color: ${(props) => props.invalid ? 'red' : 'transparent'};
+  border: 1px solid ${(props) => props.invalid ? 'blue' : 'transparent'};
   border-radius: 0.25rem;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `
